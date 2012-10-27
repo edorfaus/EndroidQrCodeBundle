@@ -28,7 +28,7 @@ configuration or extension loading is required. You only need to load the routin
 
 ``` bash
 $ curl -s http://getcomposer.org/installer | php
-$ php composer.phar update endroid/tile-bundle
+$ php composer.phar update endroid/qrcode-bundle
 ```
 
 Composer will install the bundle to your project's `vendor/endroid` directory.

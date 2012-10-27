@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "endroid/tile": "self.version"
+        "endroid/qrcode": "self.version"
     },
     "require-dev": {
         "sensio/framework-extra-bundle": "2.1.*",

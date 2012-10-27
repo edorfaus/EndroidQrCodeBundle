@@ -1,12 +1,12 @@
 <?php
 
-namespace Endroid\Bundle\TileBundle\Tests\Controller;
+namespace Endroid\Bundle\QrCodeBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class QrCodeControllerTest extends WebTestCase
 {
-    public function testCreateTile()
+    public function testCreateQrCode()
     {
         $client = static::createClient();
         $client->request('GET', '/qrcode/Life is too short to be generating QR codes.png');

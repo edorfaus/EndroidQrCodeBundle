@@ -10,7 +10,7 @@ class AppKernel extends Kernel
         $bundles = array(
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-            new Endroid\Bundle\TileBundle\TileBundle(),
+            new Endroid\Bundle\QrCodeBundle\QrCodeBundle(),
         );
 
         return $bundles;
@@ -23,7 +23,7 @@ class AppKernel extends Kernel
 
     public function getCacheDir()
     {
-        return sys_get_temp_dir().'/tile-bundle';
+        return sys_get_temp_dir().'/qrcode-bundle';
     }
 
     public function serialize()
