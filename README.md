@@ -6,6 +6,8 @@ Endroid QR Code Bundle
 This bundle provides a default controller for generating QR codes using the Endroid QR Code (endroid/QrCode) library. No
 configuration or extension loading is required. You only need to load the routing file.
 
+[![knpbundles.com](http://knpbundles.com/endroid/QrCodeBundle/badge-short)](http://knpbundles.com/endroid/QrCodeBundle)
+
 ## Requirements
 
 * Symfony
