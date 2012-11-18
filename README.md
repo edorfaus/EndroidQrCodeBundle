@@ -45,7 +45,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Endroid\Bundle\QrCodeBundle\QrCodeBundle(),
+        new Endroid\Bundle\QrCodeBundle\EndroidQrCodeBundle(),
     );
 }
 ```
@@ -56,7 +56,7 @@ Add the following section to your routing to be able to reach the controller.
 
 ``` yml
 EndroidQrCodeBundle:
-    resource:   "@QrCodeBundle/Controller/"
+    resource:   "@EndroidQrCodeBundle/Controller/"
     type:       annotation
     prefix:     /qrcode
 ```

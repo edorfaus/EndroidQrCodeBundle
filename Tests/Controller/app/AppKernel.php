@@ -10,7 +10,7 @@ class AppKernel extends Kernel
         $bundles = array(
             new Symfony\Bundle\FrameworkBundle\FrameworkBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-            new Endroid\Bundle\QrCodeBundle\QrCodeBundle(),
+            new Endroid\Bundle\QrCodeBundle\EndroidQrCodeBundle(),
         );
 
         return $bundles;
