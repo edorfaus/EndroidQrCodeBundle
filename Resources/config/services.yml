@@ -1,0 +1,8 @@
+services:
+    endroid_qrcode.twig.extension:
+        class: Endroid\Bundle\QrCodeBundle\Twig\Extension\QrCodeExtension
+        arguments: [  ]
+        tags:
+            - { name: twig.extension }
+        calls:
+            - [ setContainer, [ @service_container ] ]
