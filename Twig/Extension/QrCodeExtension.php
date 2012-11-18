@@ -10,8 +10,14 @@ use Symfony\Bundle\FrameworkBundle\Routing\Router;
 
 class QrCodeExtension extends Twig_Extension implements ContainerAwareInterface
 {
+    /**
+     * {@inheritdoc}
+     */
     protected $container;
 
+    /**
+     * {@inheritdoc}
+     */
     public function setContainer(ContainerInterface $container = null)
     {
         $this->container = $container;
@@ -27,9 +33,15 @@ class QrCodeExtension extends Twig_Extension implements ContainerAwareInterface
         );
     }
 
+    /**
+     * Creates the QR code URL corresponding to the given message and extension.
+     *
+     * @param $text
+     * @param string $extension
+     * @return mixed
+     */
     public function qrcodeUrlFunction($text, $extension = 'png')
     {
-        /** @var $router Router */
         $router = $this->container->get('router');
         $url = $router->generate('endroid_qrcode', array(
             'text' => urlencode($text),
