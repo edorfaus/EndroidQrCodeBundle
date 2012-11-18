@@ -1,12 +1,12 @@
 Endroid QR Code Bundle
 ======================
 
-[![Build Status](https://secure.travis-ci.org/endroid/QrCodeBundle.png)](http://travis-ci.org/endroid/QrCodeBundle)
+[![Build Status](https://secure.travis-ci.org/endroid/EndroidQrCodeBundle.png)](http://travis-ci.org/endroid/EndroidQrCodeBundle)
 
 This bundle provides a default controller for generating QR codes using the Endroid QR Code (endroid/QrCode) library. No
 configuration or extension loading is required. You only need to load the routing file.
 
-[![knpbundles.com](http://knpbundles.com/endroid/QrCodeBundle/badge-short)](http://knpbundles.com/endroid/QrCodeBundle)
+[![knpbundles.com](http://knpbundles.com/endroid/EndroidQrCodeBundle/badge-short)](http://knpbundles.com/endroid/EndroidQrCodeBundle)
 
 ## Requirements
 
