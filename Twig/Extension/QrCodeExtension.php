@@ -6,8 +6,6 @@ use Twig_Extension;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
-use Symfony\Bundle\FrameworkBundle\Routing\Router;
-
 class QrCodeExtension extends Twig_Extension implements ContainerAwareInterface
 {
     /**
